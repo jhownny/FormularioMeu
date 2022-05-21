@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Jolly+Lodger&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    font-family:'Grape Nuts', cursive;
+
+}
+div,section,span,ul,li,a,header{
+    box-sizing: border-box;
+}
+.bagulino{
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10 40px;
+    position: fixed;
+    z-index: 1;
+}
+#cardapio li{
+    list-style: none;
+    display :inline-block;
+    margin: 20px;
+}
+#cardapio li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: rgb(102, 7, 11);
+    text-shadow: 0px 0px 10px rgb(209, 207, 188);
+}
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+#chapuleta{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+#precos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+
+}
+#ali{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imagem{
+    width: 90%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parallax {
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("Image/CachorroDaPesada.png");
+     
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+    min-height: 800px;
+     
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallox{
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("Image/balenciaga.png");
+     
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+    min-height: 800px;
+         
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallix{
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("Image/BolaMirela.png");
+     
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+    min-height: 800px;
+         
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+    
