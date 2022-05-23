@@ -48,13 +48,14 @@ section{
     height: 100vh;
     position: relative;
 }
-#chapuleta{
+#home{
     font-family: 'Koulen', cursive;
     font-size: 350%;
     background: linear-gradient(#ffffff,#ffffff17);
 }
 #precos{
     background: linear-gradient(#ffffffc9,#fffdfd);
+
 }
 #ali{
     background: #ffffff
@@ -77,7 +78,7 @@ h1{
     background-image: url("Image/balenciaga.png");
      
     /* Define uma altura para a visão que o usuário terá da imagem */
-    min-height: 21em;
+    min-height: 16em;
     min-width: auto;
     /* Define o background como fixo e posiciona a imagem */
     background-attachment: fixed;
