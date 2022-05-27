@@ -73,16 +73,21 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
 }
-.parallax{
-    /* Coloca a imagem a ser usada como background */
-    background-image: url("Image/balenciaga.png");
-     
+.parallax {
+    /* Coloca a imagem a ser usada como background */  
+    background: url(Image/balenciaga.png);  
+    filter:  opacity(50%);
+
     /* Define uma altura para a visão que o usuário terá da imagem */
     min-height: 16em;
     min-width: auto;
+
     /* Define o background como fixo e posiciona a imagem */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.labonin{
+    filter: blur(4px);
 }
